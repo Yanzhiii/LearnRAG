@@ -6,7 +6,7 @@ A lightweight retrieval-augmented learning assistant that pairs classical (BM25)
 
 ## Colab Notebook
 
-Interactive demo: **[Open in Colab](YOUR_COLAB_LINK_HERE)**
+Interactive demo: **[Open in Colab](https://drive.google.com/file/d/1Z_a-ceWqx19_B3peBO2rgw292oHUMSMA/view?usp=sharing)**
 
 
 ---
