@@ -22,13 +22,10 @@ Interactive demo: **[Open in Colab](YOUR_COLAB_LINK_HERE)**
 
 ---
 
-## Abstract
+## Methodology
+
 This project builds a chatbot that helps students explore topics such as machine learning, deep learning and natural-language processing.  
 Using a Retrieval-Augmented Generation (RAG) framework, the system retrieves external context instead of fine-tuning the base model directly. Three pipelines are implemented:
-
----
-
-## Methodology
 
 ### Pipeline Architectures
 ![Figure 1 – Pipeline overview](docs/img/pipelines.png)
