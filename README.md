@@ -11,22 +11,20 @@ Interactive demo: **[Open in Colab](YOUR_COLAB_LINK_HERE)**
 
 ---
 
-## Roadmap
+## 🛣️ Roadmap
 
-- **Basic working process in Colab Notebook – done**  
-- **Finetuning scripts – done, pending upload**  
-- **Vector database integration – planned**  
-- **Evaluation – planned**
+| Component                  | Status     |
+|---------------------------|------------|
+| ✅ Basic Colab Workflow   | **Done**   |
+| ✅ Finetuning Scripts     | **Done** *(pending upload)* |
+| 🔄 Vector DB Integration  | **Planned** |
+| 🔄 Evaluation Framework   | **Planned** |
 
 ---
 
 ## Abstract
 This project builds a chatbot that helps students explore topics such as machine learning, deep learning and natural-language processing.  
 Using a Retrieval-Augmented Generation (RAG) framework, the system retrieves external context instead of fine-tuning the base model directly. Three pipelines are implemented:
-
-1. **V1** – BM25 + TinyLlama-1.1B-Chat baseline (RAG / non-RAG prompt styles).  
-2. **V2** – ChromaDB vector retriever + LLaMA-3.2-3B-Instruct (4-bit).  
-3. **V3** – V2 + LoRA fine-tuning and chat-style CoT prompts.
 
 ---
 
