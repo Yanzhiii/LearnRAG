@@ -33,13 +33,13 @@ Using a Retrieval-Augmented Generation (RAG) framework, the system retrieves ext
 ## Methodology
 
 ### Pipeline Architectures
-![Figure 1 – Pipeline overview](docs/img/pipeline_overview.png)
+![Figure 1 – Pipeline overview](docs/img/pipelines.png)
 
 ### Dataset Construction Workflow
-![Figure 2 – Dataset creation workflow](docs/img/dataset_creation_workflow.png)
+![Figure 2 – Dataset creation workflow](docs/img/DatasetCreation.png)
 
 ### Prompt Templates
-![Figure 4 – Prompt structures](docs/img/prompt_templates.png)
+![Figure 3 – Fine-tuning Sample](docs/img/DatasetSample.png)
 
 ### Language Model Fine-tuning
 Fine-tuning follows the **RAFT** recipe: for each knowledge chunk, three GPT-generated queries and CoT answers are created; three distractor chunks are injected to teach the model to ignore noise.  
